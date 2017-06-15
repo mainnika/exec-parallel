@@ -1,0 +1,32 @@
+{
+  "name": "exec-parallel",
+  "version": "1.0.0",
+  "description": "execute promises in parallel",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jasmine-ts spec/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainnika/exec-parallel.git"
+  },
+  "keywords": [
+    "async",
+    "promise",
+    "parallel"
+  ],
+  "author": "mainnika",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mainnika/exec-parallel/issues"
+  },
+  "homepage": "https://github.com/mainnika/exec-parallel#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.52",
+    "jasmine": "^2.6.0",
+    "jasmine-ts": "^0.1.3",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  }
+}
